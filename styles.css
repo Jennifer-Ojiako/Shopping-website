@@ -77,6 +77,24 @@
 .image-container img {
     width: 550px;
 }
-
-
+/* styles for the brand-section */
+.brand-section {
+    background-color: #EBD96B;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 70px;
+    margin-top: 50px;
+}
+.brand-section img {
+    mix-blend-mode: multiply;
+    
+}
+.brand-1, .brand-2, .brand-5, .brand-6 {
+    width: 110px;
+}
+.brand-2, .brand-3{
+    width: 140px;
+}
 /* hello world */
