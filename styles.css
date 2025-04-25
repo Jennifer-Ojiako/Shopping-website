@@ -35,5 +35,48 @@
  padding: 5px 15px;
  border-radius: 5px;
 }
+/* styles for the hero section */
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    background-color:#F4F6F5;
+    border-radius: 30px;
+    margin:20px 50px;
+    font-family: "Poppins", sans-serif !important;
+    padding-top: 25px;
+}
+.text-container {
+    padding-top: 30px !important;
+}
+.let, .explore, .unique, .clothes {
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 75px;
+}
+.hero-sentence {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.btn-container a {
+    border:none;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 19px;
+
+}
+.image-container img {
+    width: 550px;
+}
+
 
 /* hello world */
