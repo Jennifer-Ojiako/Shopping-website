@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -55,7 +55,7 @@
     display: block;
   }
 
-  .nav-list {
+  .nav-list-container {
     display: none;
   }
 
@@ -237,57 +237,62 @@ main {
   background-color: #000000;
   display: flex;
   justify-content: space-between;
-  padding: 30px  50px;
+  padding: 30px 50px;
 }
 
-.footer-right{
+.footer-right {
   display: flex;
   gap: 70px;
 }
 
-.fashion-section{
+.fashion-section {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
 
-.fashion-text{
-  
+.fashion-text {
   font-weight: 900;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.mini-text{
+.mini-text {
   font-weight: 400;
   font-size: 14px;
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   gap: 9px;
 }
 
-.fa-brands{
+.fa-brands {
   color: #000;
-  background-color: #EBD96B;
+  background-color: #ebd96b;
   padding: 7px;
   border-radius: 7px;
 }
 
-.company, .quick-link, .legal{
+.company,
+.quick-link,
+.legal {
   display: flex;
   flex-direction: column;
   gap: 22px;
 }
-.company p, .quick-link p, .legal p{
+.company p,
+.quick-link p,
+.legal p {
   font-size: 14px;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
-.company h3, .quick-link h3, .legal h3{
-  color: #D9D9D9;
+.company h3,
+.quick-link h3,
+.legal h3 {
+  color: #d9d9d9;
   font-weight: 400;
   font-size: 15px;
 }
